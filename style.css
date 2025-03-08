@@ -1,0 +1,141 @@
+:root {
+    --background: #FFF;
+    --primary: #333333;
+    --foreground: #e7f4c9;
+    --secondary: #909090;
+    --secondary-light: #c8c8c8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+    color: var(--primary);
+}
+
+header {
+    text-align: center;
+    margin: 4rem 2rem;
+}
+
+header img {
+    width: auto;
+    height: 8rem;
+}
+
+main {
+    margin: 3rem;
+}
+
+
+section1 {
+    display: flex;
+    font-weight: bold;
+    background-color: var(--foreground);
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 80rem;
+    background-image: url(dolar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    -webkit-border-image: auto;
+}
+
+section1 span {
+    display: block;
+    margin-right: 1rem;
+    /*color: rgb(125, 249, 255);(teste de cor sem a bandeira)*/
+    font-size: 5rem;
+    background-image: url(brasil.png);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section1 input {
+    flex: 1;
+    min-width: 0;
+    background: transparent;
+    /*color: rgb(125, 249, 255)var(--secondary); (teste de cor sem a bandeira)*/
+    font-size: 5rem;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    text-align: right;
+    background-image: url(brasil.png);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-border-image: auto;
+}
+
+section2 {
+    display: flex;
+    font-weight: bold;
+    background-color: var(--foreground);
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 80rem;
+    background-image: url(brasil.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-border-image: auto;
+}
+
+section2 span {
+    display: block;
+    margin-right: 1rem;
+    /*color: blue;(teste de cor sem a bandeira)*/
+    font-size: 5rem;
+    background-image: url(dolar.png);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section2 input {
+    flex: 1;
+    min-width: 0;
+    background: transparent;
+    /*color: bluevar(--secondary);(teste de cor sem a bandeira)*/
+    font-size: 5rem;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    text-align: right;
+    background-image: url(dolar.png);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-border-image: auto;
+}
+
+footer {
+    background-image: url(dcmartinslogo-removebg_novo.png); 
+    background-size: contain;  /* Ajusta a imagem para caber sem cortes */
+    background-repeat: no-repeat; 
+    background-position: center; /* Centraliza a imagem */
+    
+    height: 75px; /* Define uma altura para o footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
